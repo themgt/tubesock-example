@@ -38,7 +38,7 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'debugger'
 
 gem 'puma', '2.0.0.b6'
-gem 'tubesock', path: "../tubesock"
+gem 'tubesock'
 # currently, the ability to setup a websocket from rack is only
 # available on my fork. If/when the PR is merged this will become a gem dependency
 gem 'websocket', github: "ngauthier/websocket-ruby", ref: "8fc3bbc8f336fb5ccac95b8707e8146e86a8002d"
